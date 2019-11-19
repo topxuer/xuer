@@ -1,0 +1,264 @@
+html,body{
+	height: 100%;
+}
+
+/*header*/
+.header .w1200{
+	line-height: 78px;
+	display: flex;
+	justify-content:space-between ;
+}
+.header img{
+	vertical-align: middle;
+}
+.header ul{
+	width: 550px;
+	display: flex;
+	justify-content:space-around ;
+}
+.header ul li {
+	width: 20%;
+	text-align: center;
+}
+/*.header ul li a{
+	display: inline-block;
+	width: 100%;	
+}*/
+.header ul li a:hover{
+	color: #fc7861;
+	border-bottom:1px solid #fc7861 ;
+}
+/*banner*/
+.banner,.banner img{
+	width: 100%;
+}
+/*main*/
+.main .w1200{
+	position: relative;
+}
+.main-nav{
+	border-bottom: 1px solid #666;
+	text-align: right;
+	margin-top: 38px;
+	padding-bottom: 6px;
+	font-size: 14px;
+}
+.main-nav span:last-child{
+	color: #fb8470;
+}
+
+.titleBox{
+	/*padding-top: 22px;*/
+	background: #fff;
+	position: relative;
+	top: -1px;
+	left: 0;
+	/*text-align: center;*/
+}
+
+.titleBox h2{
+	/*width: 100%;*/
+	display: inline-block;
+	font-size: 22px;
+	color: #343434;
+	padding: 1px 30px 3px 32px;
+	position: relative;
+}
+.titleBox h2 span:nth-of-type(1),.titleBox h2 span:nth-of-type(3){
+	display: inline-block;
+	height: 17px;
+	width: 1px;
+	background: #666;
+}
+.titleBox h2 span:nth-of-type(2),.titleBox h2 span:nth-of-type(4){
+	display: inline-block;
+	height: 1px;
+	width: 17px;
+	background: #666;
+}
+.titleBox h2 span:nth-of-type(1),.titleBox h2 span:nth-of-type(2){
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.titleBox h2 span:nth-of-type(3),.titleBox h2 span:nth-of-type(4){
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.titleBox p{
+	font-size: 11px;
+	color: #666;
+}
+/*main-content*/
+.main-content{
+	display:flex;
+}
+.main-list{
+	width: 15%;
+	overflow: hidden;
+}
+.main-list ul{
+	border-left: 1px solid;
+}
+.main-list ul li{
+	font-size: 17px;
+	padding: 32px 24px 30px 0px;
+	cursor: pointer;
+}
+
+.main-list ul li span{
+	display: inline-block;
+	height: 1px;
+	width: 9px;
+	margin:0 34px 8px 0;
+	background: #666;
+}
+.main-list ul li p{
+	display: inline-block;
+	margin-left:30px;
+	
+}
+.main-list ul li.active{
+	color: #ff7860;
+}
+
+.main-txt{
+	width: 85%;
+	margin-top: 28px;
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	/*flex-wrap: wrap;*/
+}
+.main-txt .main-txt-box1{
+	width: 50%;
+}
+.main-txt .main-txt-box2{
+	display: flex;
+}
+.main-txt .main-txt-box2 .main-word1{
+	background: #f3f3f3;
+	margin:0;
+	width: 532px ;
+	height: 190px;
+	margin: auto 0;
+	z-index: 1;
+	position: relative;
+	left: 20px;
+}
+
+.main-txt-top{
+	display: flex;
+	justify-content: space-between;
+}
+.main-txt-top>div:first-of-type{
+	width: 75%;
+}
+.main-word1{
+	/*width: 40%;*/
+	padding:0 20px;
+}
+.main-txt .main-img img{
+	width: 500px;
+	height: 236px;
+}
+.main-word1 h3{
+	display: inline-block;
+	border-bottom: 1px solid #666;
+	margin-top: 20px;
+	padding-bottom: 16px;
+}
+.main-word2 h3{
+	display: block;
+}
+.main-word1 h3 span{
+	font-size: 11px;
+	margin-left: 10px;
+}
+.main-word1 p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 22px;
+}
+.main-img{
+	margin: 40px 0;
+}
+.main-works{
+	margin-top: 28px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.main-works>img{
+	width: 20%;
+}
+.main-works>div{
+	/*width: 20%;*/
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+}
+.main-imgbox{
+	/*display: flex;
+	flex-wrap: wrap;*/
+	text-align: center;
+}
+.main-imgbox>img{
+	width: 212px;
+	height: 343px;
+}
+.main-imgbox>div{
+	width: 212px;
+	height: 343px;
+	line-height: 317px;
+	color: #fff;
+	text-align: center;
+	background: #959192;
+	opacity:0;
+	transition: all 1s;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.main-imgbox>div span{
+	width: 178px;
+	height: 311px;
+	border: 1px solid #fff;
+	display: inline-block;
+	position: absolute;
+	top: 13px;
+	left:17px;
+}
+
+.main-imgbox:hover div{
+	opacity:0.5;
+}
+.main-imgbox>p{
+	margin-bottom: 20px;
+}
+.btns{
+	margin-top: 33px;
+	text-align: center;
+}
+.btns button{
+	width: 25px;
+	height: 24px;
+	border: 1px solid #999;
+	background: #fff;
+}
+.btns span{
+	font-size: 14px;
+}
+.btns span.active{
+	color: #fc7863;
+}
+/*footer*/
+.footer{
+	margin-top:60px ;
+}
+.footer img{
+	width: 100%;
+}

@@ -1,0 +1,239 @@
+body,html{
+	height: 100%;
+}
+body{
+	box-sizing: border-box;
+}
+.header{
+	height: 110px;
+	width: 100%;
+}
+.header .w1000,.header_right_top,.nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+.header_right{
+	height: 110px;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+
+.header_right>div{
+	padding: 15px 0;
+}
+.header_right_top{
+	width: 350px;
+	margin-left: auto;
+	
+}
+.nav ul{
+	width: 735px;
+}
+/*.nav ul li{
+	width: 16.67%;
+}*/
+.nav ul li{
+	display: inline-block;
+	width: 16.67%;
+	line-height: 30px;
+
+}
+.nav ul li a:hover{
+	padding-bottom: 6px;
+	border-bottom: 2px solid #850913;
+}
+.search{
+	line-height: 25px;
+	width: 230px;
+	color: #a9a9a9;
+	font-size: 9px;
+	border: 1px solid #333;
+	border-radius: 12.5px 12.5px 12.5px 12.5px;
+	padding-right: 12px;
+}
+.search input{
+	border: 0;
+	line-height: 25px;
+	width: 80%;
+	color: #a9a9a9;
+}
+/*banner*/
+.banner{
+	margin-bottom:24px ;
+}
+.banner img{
+	width: 100%;
+}
+/*main*/
+.main_nav{
+	border-bottom:1px solid #666 ;
+	font-size: 14px;
+}
+.main_nav p{
+	text-align: right;
+}
+.main_nav p span:nth-of-type(2){
+	color: #676767;
+}
+.main_nav p span:nth-of-type(3){
+	color: #98474d;
+}
+.photoStyle{
+	display: flex;
+	justify-content: space-between;
+}
+
+.photoStyleList{
+	width: 20%;
+	
+}
+.photoStyleList .h3Box{
+	/*height: 40px;*/
+	width: 120px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid;
+	border-top: 0;
+	position: relative;
+}
+.photoStyleList .h3Box h3{
+	font-size: 21px;
+	color: #333;
+}
+.photoStyleList .h3Box p{
+	width: 5px ;
+	height: 16px ;
+	background: #fff;
+}
+.photoStyleList .h3Box p:nth-of-type(1){
+	position: absolute;
+	left: -2px;
+	bottom: 3px;
+}
+.photoStyleList .h3Box p:nth-of-type(2){
+	position: absolute;
+	right: -2px;
+    top: 0px;
+}
+.photoStyleList ul{
+	width: 120px;
+	line-height: 50px;
+	border-left: 1px solid;
+	text-align: center;
+	position: relative;
+}
+.photoStyleList ul li{
+	cursor: pointer;
+}
+.photoStyleList ul li.active{
+	color: #aa2c2d;
+}
+.photoStyleList ul li button{
+	font-size: 16px;
+	border: 0;
+	background: none;
+	margin-left: 40px;
+}
+.photoStyleList ul li span{
+	font-size: 15px;
+}
+.photoStyleList ul>p{
+	height: 10px;
+	width: 6px;
+	background: #fff;
+	position: absolute;
+	top: 3px;
+	left: -3px;
+}
+.photoStyleList ul .pBox{
+	height: 16px;
+	/*line-height: 20px;*/
+	width: 9px;
+	background: #fff;
+	position: absolute;
+	left: -5px;
+	bottom: 60px;
+}
+.photoStyleList ul .pBox p{
+	height: 9px;
+	width: 9px;
+	background: #fff;
+	border: 1px solid;
+	border-radius: 50%;
+	position: relative;
+	margin-top: 2.5px;
+}
+.photoStyleList ul .pBox p span{
+	display: inline-block;
+	height: 3px;
+	width: 3px;
+	background: #333;
+	position: absolute;
+	top: 50%;
+	margin-left: -1.5px;
+	left: 50%;
+	margin-top: -1.5px;
+	
+}
+.photoStyleContent{
+	width: 80%;
+	position: relative;
+	/*display: none;*/
+}
+.Simplicity:nth-of-type(1),.Simplicity:nth-of-type(2){
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.Simplicity:nth-of-type(2),.Simplicity:nth-of-type(3){
+	opacity: 0;
+	
+}
+.Simplicity h2{
+	font-size:17px ;
+	color: #494949;
+	margin-top: 40px;
+	padding-bottom:10px ;
+	display: inline-block;
+	border-bottom: 1px solid firebrick;
+}
+.Simplicity h2 span{
+	font-size: 11px;
+}
+.Simplicity>p{
+	font-size: 14px;
+	color: #747474;
+	line-height: 22px;
+	/*text-indent: 2em;*/
+	margin: 22px 0;
+}
+
+.picbox{
+	display: flex;
+	justify-content: space-between;
+	margin: ;
+}
+.picbox div{
+	width: 31%;
+	margin: 20px 0;
+}
+.picbox div img{
+	width: 100%;
+}
+.picbox div p{
+	font-size: 17px;
+	text-align: center;
+	margin: 20px 0 38px;
+}
+
+/*footer*/
+.footer{
+	/*height: 92px;*/
+	background: #666;
+	line-height: 92px;
+	text-align: center;
+	color: #fff;
+}

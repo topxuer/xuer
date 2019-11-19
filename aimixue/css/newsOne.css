@@ -1,0 +1,122 @@
+html,body{
+	height: 100%;
+}
+
+/*header*/
+.header .w1200{
+	line-height: 78px;
+	display: flex;
+	justify-content:space-between ;
+}
+.header img{
+	vertical-align: middle;
+}
+.header ul{
+	width: 550px;
+	display: flex;
+	justify-content:space-around ;
+}
+.header ul li {
+	width: 20%;
+	text-align: center;
+}
+/*.header ul li a{
+	display: inline-block;
+	width: 100%;	
+}*/
+.header ul li a:hover{
+	color: #fc7861;
+	border-bottom:1px solid #fc7861 ;
+}
+/*banner*/
+.banner,.banner img{
+	width: 100%;
+}
+/*main*/
+.main .w1200{
+	position: relative;
+}
+.main-nav{
+	border-bottom: 1px solid #666;
+	text-align: right;
+	margin-top: 38px;
+	padding-bottom: 6px;
+	font-size: 14px;
+}
+.main-nav span:last-child{
+	color: #fb8470;
+}
+
+.titleBox{
+	/*padding-top: 22px;*/
+	background: #fff;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	/*text-align: center;*/
+}
+
+.titleBox h2{
+	/*width: 100%;*/
+	display: inline-block;
+	font-size: 22px;
+	color: #343434;
+	padding: 1px 30px 3px 32px;
+	position: relative;
+}
+.titleBox h2 span:nth-of-type(1),.titleBox h2 span:nth-of-type(3){
+	display: inline-block;
+	height: 17px;
+	width: 1px;
+	background: #666;
+}
+.titleBox h2 span:nth-of-type(2),.titleBox h2 span:nth-of-type(4){
+	display: inline-block;
+	height: 1px;
+	width: 17px;
+	background: #666;
+}
+.titleBox h2 span:nth-of-type(1),.titleBox h2 span:nth-of-type(2){
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.titleBox h2 span:nth-of-type(3),.titleBox h2 span:nth-of-type(4){
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.titleBox p{
+	font-size: 11px;
+	color: #666;
+}
+
+.news{
+	/*display: flex;*/
+	margin-left: 185px;
+}
+.news>div:nth-of-type(1),.news>div:nth-of-type(2){
+	padding-bottom: 84px;
+	border-bottom: 1px solid #666;
+}
+.news h3{
+	font-size: 23px;
+	text-align: center;
+	margin-top: 62px;
+}
+.news h3 span{
+	border-bottom: 1px solid #999;
+	padding-bottom: 9px;
+}
+.news p{
+	font-size: 13px;
+	line-height: 22px;
+	margin: 50px 0;
+}
+/*footer*/
+.footer{
+	margin-top:60px ;
+}
+.footer img{
+	width: 100%;
+}
